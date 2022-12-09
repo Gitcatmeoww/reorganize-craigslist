@@ -1,0 +1,12 @@
+#rightHeader {
+    margin-top: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-left: 3em;
+}
