@@ -1,0 +1,42 @@
+#logo {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 8px;
+}
+
+#name {
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    top: 53px;
+    left: 58px;
+}
+
+input {
+    float: right;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #800080b0;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding-left: 40px;
+    background-image: url("../../public/search.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3% 50%;
+}
+
+button {
+    float: right;
+    margin-top: 25px;
+    margin-right: 75px;
+    background-color: #800080;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
