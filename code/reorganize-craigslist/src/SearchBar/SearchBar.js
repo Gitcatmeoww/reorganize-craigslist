@@ -1,10 +1,20 @@
 import './SearchBar.css';
-import React from 'react';
+import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import Link from '@mui/material/Link';
 
 
 function SearchBar() {
+
+    const [query, setQuery] = useState('');
+
+    const handleChange = (e) => {
+        e.preventDefault();
+        setQuery(e.target.value);
+    }
+
+
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
@@ -17,14 +27,16 @@ function SearchBar() {
 
                     {/* Search Bar */}
                     <Grid item xs={3}>    
-                        <form>
-                            <input type="search" placeholder='Search'/>
+                        <form action={`https://sfbay.craigslist.org/search/sss?query=${query}`} method="post">
+                            <input onChange={handleChange} type="search" placeholder='Search'/>
                         </form>
                     </Grid> 
                     
                     {/* Create Post */}
                     <Grid item xs={2}>
-                        <button type="button"> Create Posting </button>
+                        <Link href="https://post.craigslist.org/k/Nigbi-N47RG5ZHZuKY1qPQ/nulWE?s=subarea" underline="none">
+                            <button type="button"> Create Posting </button>
+                        </Link>
                     </Grid>
                 </Grid>
             </Box>        
