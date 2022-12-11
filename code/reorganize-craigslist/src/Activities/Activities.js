@@ -22,7 +22,7 @@ function Activities() {
         <LocalizationProvider dateAdapter={AdapterDayjs}>
             <Grid container spacing={3}>
                 <Grid item xs={4}>
-                    <Button color="secondary" size="large" sx={{ fontSize: 16, fontWeight: "bold", width: 200, position: "absolute", left: 150, top: 300 }}>
+                    <Button color="secondary" size="large" sx={{ fontSize: 16, fontWeight: "bold", width: 200, position: "absolute", left: 80, top: 300 }}>
                         Event Calendar
                     </Button>
                     <Box sx={{ position: "absolute", left: 65, top: 350 }}>
@@ -33,7 +33,7 @@ function Activities() {
                 </Grid>
                 <Grid item xs={6}>
                     <Grid container spacing={2}>
-                        
+
                         {/* Arts */}
                         <Grid item xs={6}>
                             <Card sx={{ width: 330 }}>

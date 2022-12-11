@@ -27,7 +27,7 @@ function SearchBar() {
 
                     {/* Search Bar */}
                     <Grid item xs={3}>    
-                        <form action={`https://sfbay.craigslist.org/search/sss?query=${query}`} method="post">
+                        <form action={`https://www.searchcraigslist.net/results?q=${query}`} method="post">
                             <input onChange={handleChange} type="search" placeholder='Search'/>
                         </form>
                     </Grid> 
