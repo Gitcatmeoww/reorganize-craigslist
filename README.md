@@ -3,6 +3,8 @@
 ## Project Type
 Implementation project
 
+## Deliverable
+Please find the web page here: https://gitcatmeoww.github.io/craigslist-deploy/
 
 ## Writeup
 This project is inspired by the general concept of **“information architecture”**, which advocates organizing and structuring information to aid navigation and search. 

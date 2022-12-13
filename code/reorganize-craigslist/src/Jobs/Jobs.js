@@ -26,7 +26,7 @@ function Jobs() {
                         />
                         <CardContent sx={{ height: 12 }}>
                             <Typography align="left" component="div" sx={{ fontSize: 18, fontWeight: 'bold', color: '#800080', position: 'relative', left: 20 }}>
-                                I HAVE a job!
+                                I HAVE a job
                             </Typography>
                         </CardContent>
                         <CardActions>
@@ -49,7 +49,7 @@ function Jobs() {
                         />
                         <CardContent sx={{ height: 12 }}>
                             <Typography align="left" component="div" sx={{ fontSize: 18, fontWeight: 'bold', color: '#800080', position: 'relative', left: 20 }}>
-                                I NEED a job!
+                                I NEED a job
                             </Typography>
                         </CardContent>
                         <CardActions>
